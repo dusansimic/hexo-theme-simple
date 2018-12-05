@@ -1,0 +1,9 @@
+# Created by: Dušan Simić
+# Website: dusansimic.me
+# Email: dusan.simic1810@gmail.com
+# License: MIT
+
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
