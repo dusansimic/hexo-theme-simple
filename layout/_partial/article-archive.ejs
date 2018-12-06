@@ -1,12 +1,12 @@
 <div class="table--row blog-post">
 		<!-- Date -->
-		<div class="table--cell">
+		<div class="table--cell table--cell-meta">
 			<span class="blog-post-meta">
 				<%= item.date.format(config.date_format) %>
 			</span>
 		</div>
 		<!-- Title -->
-		<div class="table--cell">
+		<div class="table--cell table--cell-title">
 			<span class="blog-post-title-archive">
 				<a href="<%- config.root %><%- item.path %>">
 					<%- item.title || item.link%>
